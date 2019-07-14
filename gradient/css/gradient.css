@@ -1,0 +1,22 @@
+.big{
+    height: 400px;
+    background: linear-gradient(white, red);
+    text-decoration: line-through;
+  //  font-size: 40px;
+}
+
+.circle{
+    height: 400px;
+    //font-size: 40px;
+    background: radial-gradient(white, grey);
+}
+
+/* input:checked + label{
+    text-decoration-color: aqua;
+    text-decoration: line-through;
+} */
+
+/* another way of writing the same above thing is */
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
