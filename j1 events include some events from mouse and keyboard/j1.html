@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+	
+	<h1>Onclick example</h1> <br>
+<!-- onclick starts -->
+    <div id="test">
+    <button onclick="showDate()"> Button date </button>
+    
+</div>
+<!-- onclick ends -->
+<br>
+
+
+<h1>onchange example</h1>
+<!-- onchange starts -->
+    <div  id="change">
+    enetr some text: <input type="text"  name="txt" value="hello" onchange="myFunction(this.value)">
+</div>
+<!-- onchange end-->
+<br>
+
+
+<h1>onmouseover example</h1>
+<!-- onmouseover starts -->
+<div>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/student-849825__340.jpg" 
+    alt="smiley" width="80px" height="80px">
+    
+</div>
+<!-- onmouseover ends -->
+<br>
+
+
+<h1>onkeydown example</h1> 
+<!-- any key pressed from the keyboard taken as an input
+ --><!-- onkeydown starts -->
+<div>
+    <input type="text" onkeydown="fun2()">
+        
+</div>
+<!-- onkeydown ends -->
+<br>
+
+
+<h1>onkeypress example</h1>
+<!-- it doesnt include alt, clt, shft, esc ->
+<!-- onkeypress starts -->
+<div>
+    <input type="text" onkeypress="fun3()">
+    
+</div>
+<!-- onkeypress ends -->
+<br>
+
+
+
+
+<script src="js/j1.js"></script>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
