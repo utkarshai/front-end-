@@ -1,0 +1,25 @@
+/* body{
+    background-image: url("../images/student-849825__340.jpg") 
+         
+} */
+
+body{
+    background: url("../images/student-849825__340.jpg")
+        no-repeat center center fixed;
+    background-size: cover       
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: crimson;
+    font-size: 100px;
+        text-align: center;
+    border: 3px solid red;
+    
+    width: 300px;
+    padding: 10px;
+    margin: 100px auto;
+}
+div{
+    background-color: aqua;
+}
