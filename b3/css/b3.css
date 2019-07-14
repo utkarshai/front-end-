@@ -1,0 +1,16 @@
+body{
+    padding: 20px;
+    color: grey;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    /* //this will help us to set position according to our choice */
+        
+        /* next three line will strech this navbar to the both side of window */
+        
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
